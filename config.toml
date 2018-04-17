@@ -2,6 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Urban Rigger"
 theme = "blank"
+publishDir = "docs"
 
 
 [[menu.main]]

@@ -6,44 +6,51 @@ theme = "blank"
 
 [[menu.main]]
 name               	= "Home"
+titel               = "Home"
 weight             	= -201
 identifier         	= "home"
-url                	= "_index.html"
+url                	= "/"
 
 
 [[menu.main]]
 name               	= "Projects"
+titel               = "Projects"
 weight             	= -201
 identifier         	= "projects"
-url                	= "/projects/"
+url                	= "/projects"
 
 [[menu.main]]
 name               	= "View container"
+titel               = "View container"
 weight             	= -101
-identifier         	= "view_container"
-url                	= "/view_container"
+identifier         	= "view"
+url                	= "/view"
 
 
 [[menu.main]]
-name               	= "Sustanbility"
+name               	= "Sustainbility"
+titel               = "Sustainbility"
 weight             	= -101
-identifier         	= "Sustanbility"
-url                	= "/sustanbility.html"
+identifier         	= "sustan"
+url                	= "/sustan"
 
 [[menu.main]]
 name               	= "About us"
+titel               = "About us"
 weight             	= -101
-identifier         	= "About us"
-url                	= "/about_us.html/"
+identifier         	= "aboutus"
+url                	= "/aboutus"
 
 [[menu.main]]
 name               	= "Contact"
+titel               = "Contact"
 weight             	= -101
 identifier         	= "contact"
-url                	= "/contact/"
+url                	= "/contact"
 
 [[menu.main]]
 name               	= "Students"
+titel               = "Students"
 weight             	= -101
 identifier         	= "students"
-url                	= "/students/"
+url                	= "/students"

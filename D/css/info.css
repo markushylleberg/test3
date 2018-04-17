@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.info_div{
+    display: grid;
+    grid-template-columns: [start] 1fr [nr1] 1fr [nr2] 1fr [nr3] 1fr [nr4] 1fr [nr5] 1fr [nr6] 1fr [nr7] 1fr [nr8] 1fr [nr9] 1fr [nr10] 1fr [nr11] 1fr [nr12];  
+    width: 100vw;
+}
+
+.data-farve_div{
+    position: absolute;
+    grid-column: start / nr12;
+    height: 100vh;
+    z-index: -1;
+}
+
+.data-farve{
+    position: absolute;
+    width: 25vw;
+    height: 93vh;
+    margin-top: -1vh;
+}
+
+.data-flag_div{
+    width: 100%;
+    grid-column: start / nr3;
+    text-align: left;
+    z-index: 100;
+    text-align: center;
+}
+
+.data-flag{
+    width: 16%;
+}
+
+.data-bynavn{
+    height: 29px;
+    font-family: 'raleway';
+    font-weight: 300;
+    color: white;
+    margin-top: 15vh;
+    grid-column: start / nr3;
+    text-align: center;
+}
+
+.data-bybillede_div{
+    margin-top: 15vh;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.data-bybillede{
+    width: 47%;
+}
+
+.data-mangde_af_containere{
+    margin-bottom: 13vh;
+    text-align: center;
+    font-family: 'raleway';
+    font-size: 28px;
+        margin-top: -1vh;
+    
+}
+
+.data-faerdigdato{
+        margin-bottom: 13vh;
+    text-align: center;
+    font-family: 'raleway';
+    font-size: 26px;
+    margin-top: -1vh;
+    
+}
+
+.container_p{
+    height: 20px;
+    font-family: 'raleway';
+    border-bottom: 1px solid black;
+    border-bottom-color: #c0e0dd7d;
+    border-width: 2px;
+    text-align: center;
+    font-size: 14px;
+}
+
+ul{
+    margin-top: -2vh;
+    list-style: none;
+    grid-column: nr9 / nr12;
+    margin-right: 3vw;
+}
+
+.data-beskrivelse2{
+    grid-column: start / nr3;
+    margin-top: -35vh;
+    padding: 2vh;
+    font-family: 'raleway';
+    font-size: 13px;
+    color: white;
+}
+
+.data-status{
+    grid-column: start / nr3;
+    margin-top: -46vh;
+    text-align: center;
+    font-family: 'raleway';
+    color: white;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+.status-tekst{
+    height: 23px;
+    border-bottom: white solid 2px;
+    grid-column: start / nr3;
+    margin-top: -50vh;
+    text-align: center;
+    font-family: 'raleway';
+    color: white;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+.partnere{
+    display: grid;
+    grid-template-columns: [start] 4fr [nr1] 4fr [nr2] 4fr [nr3];
+    text-align: center;
+    height: 15vh;
+}
+
+.data-partner1, .data-partner2, .data-partner3, .data-partner4, .data-partner5, .data-partner6{
+    width: 70%;
+}
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100vh;
+}
+container {
+   min-height:100%;
+   position:relative;
+}
+
+body {
+   padding-bottom:50px;   /* Height of the footer */
+}
+footer {
+    padding-top: 6vh;
+
+}
+
+
+/***************************HEADER start****************/
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: -2vh;
+}
+
+a:hover {
+    /*    color: white;*/
+    /*    border-bottom: 3px solid black;*/
+    /*    text-shadow: 1px 1px 1px #00f5ff;*/
+}
+
+header {
+    
+    width: 101%;
+    /*    background-color: #c0e0df7d;*/
+    background-color: #c1e0f7;
+    padding-top: 0vh;
+    margin-top: 0vh;
+    margin-left: -1vw;
+}
+
+header nav {
+    text-align: left;
+    top: 0;
+    padding: 10px;
+    margin-left: 6%;
+}
+
+.urban_logo_sort {
+    position: absolute;
+    padding-bottom: 1vh;
+    width: 6%;
+    left: 0;
+}
+
+a.nav.student {
+    color: red;
+}
+
+a.nav.contact {
+    border-right: 1px solid black;
+}
+
+/* Underline From Center */
+
+.hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: black;
+    height: 2px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-center:hover:before,
+.hvr-underline-from-center:focus:before,
+.hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+}
+
+/***************************HEADER slut****************/
+
+
+/**********************FOOOOoOoOoOoOTER start**************/
+
+
+.footer_div{
+    position: relative;
+    z-index: 1000;
+    background-color: lightblue;
+    width: 100vw;
+    height: 50px;
+}

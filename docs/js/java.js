@@ -22,46 +22,6 @@ sr.reveal('.foo-5', {
 });
 
 
-$('a').magnificPopup({
-		type: 'image',
-		closeBtnInside: false,
-    closeOnContentClick: false,
-  
-    callbacks: {
-      open: function() {
-        var self = this;
-        self.wrap.on('click.pinhandler', 'img', function() {
-          self.wrap.toggleClass('mfp-force-scrollbars');
-        });
-      },
-      beforeClose: function() {
-            this.wrap.off('click.pinhandler');
-        this.wrap.removeClass('mfp-force-scrollbars');
-      }
-    },
-     
-    image: {
-			verticalFit: false
-		}
-  
-	});
-
-
-(function () {
-
-  "use strict";
-
-  // Feature test to rule out some older browsers
-  if ("querySelector" in document && "addEventListener" in window) {
-
-    // forEach method, that passes back the stuff we need
-    var forEach = function (array, callback, scope) {
-      for (var i = 0; i < array.length; i++) {
-        callback.call(scope, i, array[i]);
-      }
-    };
-
-
 $(".knap_miele").click(function () {
     $('.gif_big').css('z-index', '1');
     $('.gif_qcells').css('z-index', '1');
@@ -217,6 +177,56 @@ $(".knap_niras").click(function () {
     $('.kontakt_niras').css('opacity', '1');
     $('.kontakt_miele').css('opacity', '0');
 });
+
+
+
+
+
+
+function onLoad() {
+
+   // if (window.innerWidth <= 768) {
+
+    function toggleMenu() {
+        document.querySelector(".burger").classList.toggle("change");
+        document.querySelector("nav").classList.toggle("show");
+    }
+    document.querySelector(".burger").addEventListener("click", toggleMenu);
+    document.querySelector("ul").addEventListener("click", toggleMenu);
+
+     }
+//}
+
+document.addEventListener("DOMContentLoaded", function (event) {
+    onLoad();
+});
+
+
+
+
+$('a').magnificPopup({
+		type: 'image',
+		closeBtnInside: false,
+    closeOnContentClick: false,
+  
+    callbacks: {
+      open: function() {
+        var self = this;
+        self.wrap.on('click.pinhandler', 'img', function() {
+          self.wrap.toggleClass('mfp-force-scrollbars');
+        });
+      },
+      beforeClose: function() {
+            this.wrap.off('click.pinhandler');
+        this.wrap.removeClass('mfp-force-scrollbars');
+      }
+    },
+     
+    image: {
+			verticalFit: false
+		}
+  
+	});
 
 
 

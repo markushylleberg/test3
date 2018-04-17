@@ -25,9 +25,10 @@ a {
     color: black;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
+    font-weight: 500;
     font-size: 14px;
     padding: 10px;
-    margin-top: -2vh;
+    margin-top: -1vh;
 }
 
 a:hover {
@@ -40,14 +41,14 @@ header {
     
     width: 101%;
     /*    background-color: #c0e0df7d;*/
-    background-color: #c1e0f7;
+    background: #d1e5d8;
     padding-top: 0vh;
     margin-top: 0vh;
     margin-left: -1vw;
 }
 
 header nav {
-    text-align: left;
+    text-align: center;
     top: 0;
     padding: 10px;
     margin-left: 6%;
@@ -65,7 +66,7 @@ a.nav.student {
 }
 
 a.nav.contact {
-    border-right: 1px solid black;
+    border-right: 0px;
 }
 
 /* Underline From Center */
@@ -111,7 +112,6 @@ a.nav.contact {
 
 
 .footer_div{
-    position: fixed;
     z-index: 1000;
     background-color: lightblue;
     width: 100vw;
@@ -1286,9 +1286,7 @@ ul {
 }
 
 .fuckingfooter{
-    position: fixed;
     width: cover;
-    bottom: 5%;
 }
 
 #theteam_container{
@@ -1555,7 +1553,7 @@ img.about_icon_5 {
     position: fixed;
     grid-template-columns: [start] 2fr [midt] 2fr [midt2] 2fr [midt3] 2fr [midt4] 2fr [slut];
     width: 20%;
-    margin-top: 25vh;
+    margin-top: 15vh;
     margin-left: 5vh;
 }
 
@@ -1758,9 +1756,354 @@ img.about_icon_5 {
     text-align: center;
 }
 
-.icon_text5 {
+.burger {
+    cursor: pointer;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0);
+    border: none;
+    justify-self: end;
 }
 
-.container_contact{
+     }
     
+ul {
+   
+    margin: 0;
+    padding: 0;
+}
+
+ul img{
+    top: 4.6%;
+    visibility: hidden;
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+nav {
+    max-height: 0px;
+    overflow: hidden;
+    transition: 0.6s;
+    background: #d1e5d8;
+    color: #fff;
+}
+
+nav.show {
+    max-height: 500px;
+}
+
+/* Rotate first bar */
+
+.change .bar1 {
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+/* Fade out the second bar */
+
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+
+.change .bar3 {
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  height: auto;
+  background-color: #070617;
+}
+.footer .col {
+  width: 190px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+.footer .col h1 {
+
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color: rgba(255,255,255,0.2);
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.250em;
+}
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .col ul li {
+  color: #999999;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 5px 40px 5px 0px;
+  cursor: pointer;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+}
+.social ul li {
+  display: inline-block;
+  padding-right: 5px !important;
+margin-top: 3vh;
+}
+
+.footer .col ul li:hover {
+  color: #ffffff;
+  transition: .1s;
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
+}
+.clearfix {
+  clear: both;
+}
+
+.logobaby{
+    margin-top: 8vh;
+    margin-left: 6vw;
+}
+
+@media only screen and (min-width: 1280px) {
+  .contain {
+    width: 100vw;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1139px) {
+  .contain .social {
+    width: 1000px;
+    display: block;
+  }
+  .social h1 {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .footer .col {
+    width: 33%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 500px) {
+    .footer .col {
+      width: 50%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+}
+@media only screen and (max-width: 340px) {
+  .footer .col {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:768px) {
+    .burger {
+        display: none;
+    }
+    nav {
+        max-height: 200px;
+        text-align: center;
+    }
+    li {
+        display: inline-block;
+    }
+    
+    ul img{
+    margin-top: -3vh;
+    visibility: visible;
+}
+    
+    a.nav.contact {
+    border-right: 1px solid black;
+}
+    
+    header nav {
+        text-align: right;}
+}
+
+
+
+.video-background{
+    float: none;
+    clear: both;
+    width: 100%;
+    padding-bottom: 56.2%;
+    height: 0;
+    background-color: white;
+    /* Put the video in the background */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.video-background iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#loader1{
+    width: 10%;
+    height: 10%;
+   top: 45%;
+    left: 45%;
+    position: absolute;
+}
+
+#frameWrap{
+    pointer-events: none;
+    opacity: 0;
+    height: 120vh;
+    width: 102vw;
+    margin-top: -20vh;
+    margin-left: -2vh;
+    background-color: white;
+    z-index: 999999;
+    
+    animation-name: fadeOut;
+    animation-timing-function: ease-in;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes fadeOut{
+    0%{
+        opacity: 1;
+    }
+    
+    85%{
+        opacity: 1;
+    }
+    
+    100%{
+        opacity: 0;
+    }
+}
+
+
+img.splash_forside {
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+
+.splash_logo {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.splash_logo2 {
+    position: absolute;
+    pointer-events: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 10vh;
+    z-index: 100;
+    
+    animation-name: fadeOut;
+    animation-timing-function: ease-in;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+.splash_logo img {
+    width: 30%;
+}
+
+.splash_logo2 img {
+    width: 30%;
+}
+
+.knap{
+    width: 100vw;
+    position: absolute;
+    text-align: center;
+    margin-top: -30vh;
+}
+
+button.knap_forside {
+    width: 20vw;
+    height: 14vh;
+    font-family: 'raleway' sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    color: white;!important
+    font-size: 17px;
+    z-index: 11;
+    font-weight: 100;
+    margin-top: -5vh;
+    
+    animation-name: fadeIn;
+    animation-timing-function: ease-in;
+    animation-duration: 3000ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    
+    85%{
+        opacity: 0;
+    }
+    
+    100%{
+        opacity: 1;
+    }
+}
+
+.knap {
+    width: 100%;
+    margin-left: -1vh;
+    padding: 0;
+}
+
+.sustanbilty{
+    height: 100vh;
 }

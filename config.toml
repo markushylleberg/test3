@@ -1,4 +1,4 @@
-baseURL = "https://markushylleberg.github.io/urban/"
+baseURL = "https://markushylleberg.github.io/urban/docs/"
 languageCode = "en-us"
 title = "Urban Rigger"
 theme = "blank"

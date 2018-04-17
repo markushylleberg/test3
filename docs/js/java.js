@@ -47,7 +47,19 @@ $('a').magnificPopup({
 	});
 
 
+(function () {
 
+  "use strict";
+
+  // Feature test to rule out some older browsers
+  if ("querySelector" in document && "addEventListener" in window) {
+
+    // forEach method, that passes back the stuff we need
+    var forEach = function (array, callback, scope) {
+      for (var i = 0; i < array.length; i++) {
+        callback.call(scope, i, array[i]);
+      }
+    };
 
 
 $(".knap_miele").click(function () {

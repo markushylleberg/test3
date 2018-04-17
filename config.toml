@@ -10,7 +10,7 @@ name               	= "Home"
 titel               = "Home"
 weight             	= -201
 identifier         	= "home"
-url                	= "/test2"
+url                	= "/test3"
 
 
 [[menu.main]]
@@ -18,14 +18,14 @@ name               	= "Projects"
 titel               = "Projects"
 weight             	= -201
 identifier         	= "projects"
-url                	= "/test2/projects"
+url                	= "/test3/projects"
 
 [[menu.main]]
 name               	= "View container"
 titel               = "View container"
 weight             	= -101
 identifier         	= "view"
-url                	= "/test2/view"
+url                	= "/test3/view"
 
 
 [[menu.main]]
@@ -33,25 +33,25 @@ name               	= "Sustainbility"
 titel               = "Sustainbility"
 weight             	= -101
 identifier         	= "sustan"
-url                	= "/test2/sustan"
+url                	= "/test3/sustan"
 
 [[menu.main]]
 name               	= "About us"
 titel               = "About us"
 weight             	= -101
 identifier         	= "aboutus"
-url                	= "/test2/aboutus"
+url                	= "/test3/aboutus"
 
 [[menu.main]]
 name               	= "Contact"
 titel               = "Contact"
 weight             	= -101
 identifier         	= "contact"
-url                	= "/test2/contact"
+url                	= "/test3/contact"
 
 [[menu.main]]
 name               	= "Students"
 titel               = "Students"
 weight             	= -101
 identifier         	= "students"
-url                	= "/test2/students"
+url                	= "/test3/students"

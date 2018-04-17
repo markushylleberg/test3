@@ -10,7 +10,7 @@ name               	= "Home"
 titel               = "Home"
 weight             	= -201
 identifier         	= "home"
-url                	= "/test3"
+url                	= "/test3/"
 
 
 [[menu.main]]

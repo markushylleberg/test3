@@ -2,7 +2,7 @@ baseURL = "https://markushylleberg.github.io/docs"
 languageCode = "en-us"
 title = "Urban Rigger"
 theme = "blank"
-publishDir = "urban"
+publishDir = "docs"
 
 
 [[menu.main]]

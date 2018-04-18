@@ -522,6 +522,8 @@ img.niras_knap {
 /*******************student start**********************/
 
 .grid-container-students {
+    width: 100vw;
+    overflow:hidden;
     position: relative;
     display: block;
         text-align: center;

@@ -18,6 +18,6 @@ partner5: /imgs/danfoss.png
 partner6: /imgs/grundfoss.png
 ---
 
-<img src="/imgs/danfoss.png">
+<img src="../../imgs/danfoss.png">
 
 hej med dig

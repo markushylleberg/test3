@@ -10,6 +10,12 @@ beskrivelse2: The city of Gothenborg was our first customer after we launched th
 container: 864
 dato: WINTER 2022
 status: BUILDING BEGINS OCTOBER 2018
+partner1: /imgs/miele.png
+partner2: /imgs/Niras.png
+partner3: /imgs/qcells.png
+partner4: /imgs/BIG.png
+partner5: /imgs/danfoss.png
+partner6: /imgs/grundfoss.png
 ---
 
 hvad så

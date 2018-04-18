@@ -10,6 +10,12 @@ beskrivelse2: København jajajajajajajajajajjajaajjaj
 container: 12
 dato: SPRING/SUMMER 2020
 status: AWAITING FINAL APPROVEL FROM PARIS CITY
+partner1: /imgs/miele.png
+partner2: /imgs/Niras.png
+partner3: /imgs/qcells.png
+partner4: /imgs/BIG.png
+partner5: /imgs/danfoss.png
+partner6: /imgs/grundfoss.png
 ---
 
 case 2 content

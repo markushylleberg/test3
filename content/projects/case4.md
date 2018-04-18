@@ -10,6 +10,12 @@ beskrivelse2: København jajajajajajajajajajjajaajjaj
 container: 180
 dato: SUMMER 2023
 status: AWAITING FINAL BUILDING PERMISSION FROM NYC
+partner1: /imgs/miele.png
+partner2: /imgs/Niras.png
+partner3: /imgs/qcells.png
+partner4: /imgs/BIG.png
+partner5: /imgs/danfoss.png
+partner6: /imgs/grundfoss.png
 ---
 
 hahaha ha

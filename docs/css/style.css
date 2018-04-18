@@ -1867,6 +1867,11 @@ nav.show {
   -webkit-transition: .2s;
   -moz-transition: .2s;
 }
+
+.footer a{
+    font-family: inherit;
+    margin-left: -0.6vw;
+}
 .social ul li {
   display: inline-block;
   padding-right: 5px !important;

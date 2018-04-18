@@ -2,7 +2,8 @@ html,
 body {
    margin:0;
    padding:0;
-   height:100vh;
+    width: 100vw;
+    height: 100%;
 }
 container {
    min-height:100%;
@@ -777,7 +778,7 @@ ul {
     pointer-events: none;
     width: 10%;
     position: absolute;
-    left: 49%;
+    left: 49.5%;
     margin-top: 6.6%;
     z-index: 10;
 }
@@ -786,7 +787,7 @@ ul {
     pointer-events: none;
     width: 10%;
     position: absolute;
-    left: 49.4%;
+    left: 49.9%;
     margin-top: 4.5%;
     z-index: 9;
 }
@@ -795,7 +796,7 @@ ul {
     pointer-events: none;
     width: 10%;
     position: absolute;
-    left: 47.8%;
+    left: 48.5%;
     margin-top: 8.8%;
     z-index: 10;
 }
@@ -1047,51 +1048,7 @@ ul {
     transform: rotateY(180deg);
 }
 
-@media screen and (min-device-width: 400px) and (max-device-width: 1024px) {
-    body {
-        background-color: red;
-    }
-    #eventscontainer {
-        display: grid;
-        grid-template-columns: [start] 12fr [slut];
-    }
-    .data-bynavn {
-        font-size: 12px;
-    }
-}
 
-@media screen and (min-device-width: 300px) and (max-device-width: 400px) {
-    body {
-        background-color: yellow;
-    }
-    #eventscontainer {
-        display: grid;
-        grid-template-columns: [start] 12fr [slut];
-    }
-    .wtf {
-        /*    border: 1px solid black;*/
-        height: 50vh;
-        overflow: hidden;
-        /*
-    display: grid;
-    grid-template-columns: [start] 2fr [nr1] 2fr [nr2] 2fr [nr3] 2fr [nr4] 2fr [nr5] 2fr [nr6];
-*/
-        margin-bottom: -50%;
-        text-align: center;
-    }
-    .data-farve_div {
-        position: absolute;
-        z-index: 8;
-        width: 22%;
-        height: 60px;
-        left: 39%;
-        margin-top: 22%;
-        overflow: hidden;
-    }
-    .data-bynavn {
-        font-size: 10px;
-    }
-}
 .view_h2{
         font-size: 25px;
     margin-right: 10vh;
@@ -1774,7 +1731,6 @@ ul {
 
 ul img{
     top: 4.6%;
-    visibility: hidden;
 }
 
 li {
@@ -1890,6 +1846,10 @@ margin-top: 3vh;
   clear: both;
 }
 
+    .urban_logo_sort{
+        display: none;
+    }
+
 .logobaby{
     margin-top: 8vh;
     margin-left: 6vw;
@@ -1961,29 +1921,36 @@ margin-top: 3vh;
     
     header nav {
         text-align: right;}
+    
+        .urban_logo_sort{
+        display: block;
+    }
 }
+
+
 
 
 
 .video-background{
     float: none;
     clear: both;
-    width: 100%;
-    padding-bottom: 56.2%;
-    height: 0;
+    width: 100vw;
+    height: 120vh;
     background-color: white;
-    /* Put the video in the background */
     position: absolute;
+    background-position: 100% 400%;
+    overflow: hidden;
+
     top: 0;
     left: 0;
     z-index: -1;
 }
+
 .video-background iframe {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    left: -20%;
+    object-fit: fill;
 }
 
 #loader1{
@@ -2077,13 +2044,12 @@ button.knap_forside {
     height: 14vh;
     font-family: 'raleway' sans-serif;
     background-color: rgba(255, 255, 255, 0);
-    border: 1px solid white;
     color: white;!important
     font-size: 17px;
     z-index: 11;
     font-weight: 100;
-    margin-top: -5vh;
-    
+    margin-top: -66vh;
+    border: none;
     animation-name: fadeIn;
     animation-timing-function: ease-in;
     animation-duration: 3000ms;
@@ -2114,3 +2080,291 @@ button.knap_forside {
 .sustanbilty{
     height: 100vh;
 }
+
+
+
+
+/****************IPAD QUE***************/
+/*****************IPAD QUE***************/
+/******************IPAD QUE**************/
+@media only screen and (max-width: 1000px)  {
+
+.video-background iframe {
+    position: absolute;
+    top: 0;
+    left: -70%;
+    object-fit: fill;
+}
+    
+    a{
+        font-size: 10px;
+    }
+    
+    header{
+        padding: 0;
+    }
+    
+    ul{
+        padding: 0;
+    }
+
+    .splash_logo, .splash_logo2{
+        margin-top: 20vh;
+    }
+    
+    .kort_container{
+        width: 100vw;
+    }
+    
+    .kort_div {
+    grid-column: nr2 / nr22;
+    grid-row: nr1 / nr24;
+}
+    .pin1 {
+    left: 31.2%;
+    margin-top: 14.7%;
+}
+    
+    .pin2 {
+    left: 49.7%;
+    margin-top: 11.6%;
+}
+
+.pin3 {
+    left: 50.5%;
+    margin-top: 9.5%;
+}
+
+.pin4 {
+    left: 48.3%;
+    margin-top: 14.8%;
+}
+    
+    
+.pin1_tekst {
+    left: 25.7%;
+    margin-top: 4.5%;
+}
+
+    .pin2_tekst {
+    left: 35%;
+    margin-top: 4%;
+}
+
+.pin3_tekst {
+    left: 37%;
+    margin-top: 2%;
+}
+
+.pin4_tekst {
+    left: 35%;
+    margin-top: 13%;
+}
+    
+    .TreD_projects{
+    margin-top: -4vh;
+    text-align: inherit;
+        font-size: 20px;
+    margin-right: 10vh;
+        margin-left: 0vh;
+    font-family: 'lato';
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: black;
+    border-bottom: 0.3px solid #666666;
+    line-height: 0.2em;
+    font-family: 'raleway';
+    font-weight: 400;
+}
+    
+    .view_h2{
+    font-size: 25px;
+    margin-right: 0vh;
+    margin-left: 0vh;
+    margin-top: -5vh;
+    font-family: 'lato';
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: black;
+    border-bottom: 0.3px solid #666666;
+    line-height: 0.2em;
+    font-family: 'raleway';
+    font-weight: 400;
+        }
+    
+    h2.TreD_h2 {
+    font-size: 25px;
+    margin-top: -5vh;
+    margin-right: 0vh;
+    margin-left: 0vh;
+    font-family: 'lato';
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: black;
+    border-bottom: 0.3px solid #666666;
+    line-height: 0.2em;
+    font-family: 'raleway';
+    font-weight: 400;
+}
+    
+    .TreD-2 {
+    display: flex;
+    width: 100vw;
+    margin-top: -5vh;
+    height: 50px;
+    margin-left: -20vh;
+
+}
+    
+
+
+
+
+
+
+}
+
+/*****************IPAD SLUT**************/
+/****************IPAD SLUT***************/
+/***************IPAD SLUT****************/
+
+
+
+
+
+
+/*****************MOBILE QUE*************/
+/****************MOBILE QUE**************/
+/***************MOBILE QUE***************/
+@media only screen and (max-width: 670px)  {
+    
+    .TreD-container-3{
+        text-align: center;
+    }
+    
+    .TreD-1 {
+    margin-top: 10vh;
+    text-align: center;
+    width: 100%;
+}
+
+.gif_big,
+.gif_miele,
+.gif_qcells,
+.gif_danfoss,
+.gif_grundfos {
+    width: 78%;
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: -18vh;
+}
+    
+    .logo_big,
+.logo_niras,
+.logo_miele,
+.logo_qcells,
+.logo_danfoss,
+.logo_grundfos {
+    width: 17%;
+    margin-top: -7vh;
+    position: absolute;
+    margin-left: -17%;
+}
+    
+        .TreD-2 {
+    display: block;
+    width: 100vw;
+    margin-top: -5vh;
+    height: 50px;
+    margin-left: -10vh;
+
+}
+    
+        .TreD-container-2 {
+    margin-top: 60vh;
+    position: absolute;
+    height: 40px;
+    margin-left: 28vw;
+
+}
+    
+    .TreD-3 {
+    width: 100vw;
+}
+    
+    .TreD-container-3 {
+    padding-top: 0vh;
+    padding-left: 10%;
+    width: 100%;
+}
+    
+    .TreD-3-kontakt{
+        display: none;
+    }
+
+.kort_container{
+    margin-top: 10vh;
+}
+
+.TreD-3 p {
+    margin-top: 0vh;
+    margin-left: 0;
+    position: absolute;
+    font-family: 'lato', sans-serif;
+    font-size: 10px;
+    width: 83%;
+}
+
+    
+ .video-background iframe {
+    position: absolute;
+    top: 0;
+    left: -180%;
+    object-fit: cover;
+}
+
+    button.knap_forside {
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+        margin-top: -75vh;
+        
+    }
+    
+    .kort_container{
+        display: none;
+    }
+    
+    .TreD_teksts{
+        padding: 20px;
+    }
+    
+
+    
+        .grid-container {
+    display: grid;
+    grid-template-columns: [start] 12fr [slut];
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+    #eventscontainer {
+    display: grid;
+    grid-template-columns: [start] 12fr [slut];
+}
+.template-ul {
+    overflow: hidden;
+    padding: 0vh;
+
+}
+    
+    
+    
+    
+}
+/***************MOBILE QUE***************/
+/****************MOBILE QUE**************/
+/*****************MOBILE QUE*************/

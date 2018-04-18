@@ -536,3 +536,341 @@ a.nav.contact {
     margin-top: -2vh;
     display: block;
 }
+
+
+
+
+
+
+
+/*************IPAD**************/
+/*************IPAD**************/
+/*************IPAD**************/
+/*************IPAD**************/
+/*************IPAD**************/
+/*************IPAD**************/
+@media only screen and (max-width: 1000px)  {
+    
+    
+    a{
+        font-size: 10px;
+    }
+    
+    header{
+        padding: 0;
+    }
+    
+    ul{
+        padding: 0;
+    }
+    
+    
+    
+.info_div{
+    display: grid;
+    grid-template-columns: [start] 1fr [nr1] 1fr [nr2] 1fr [nr3] 1fr [nr4] 1fr [nr5] 1fr [nr6] 1fr [nr7] 1fr [nr8] 1fr [nr9] 1fr [nr10] 1fr [nr11] 1fr [nr12];  
+    width: 100vw;
+}
+
+.data-farve_div{
+    position: absolute;
+    grid-column: start / nr12;
+    height: 100%;
+    z-index: -1;
+}
+
+.data-farve{
+    position: absolute;
+    width: 25vw;
+    height: 120%;
+    margin-top: -2vh;
+}
+
+.data-flag_div{
+    width: 100%;
+    grid-column: start / nr3;
+    text-align: left;
+    z-index: 100;
+    text-align: center;
+    margin-top: -2vh;
+}
+
+.data-flag{
+    width: 16%;
+}
+
+.data-bynavn{
+    height: 29px;
+    font-family: 'raleway';
+    font-weight: 300;
+    color: white;
+    margin-top: 15vh;
+    grid-column: start / nr3;
+    text-align: center;
+}
+
+.data-bybillede_div{
+    margin-top: 15vh;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.data-bybillede{
+    width: 47%;
+}
+
+.data-mangde_af_containere{
+    margin-bottom: 15vh;
+    text-align: center;
+    font-family: 'raleway';
+    font-size: 28px;
+        margin-top: 1vh;
+    
+}
+
+.data-faerdigdato{
+        margin-bottom: 13vh;
+    text-align: center;
+    font-family: 'raleway';
+    font-size: 26px;
+    margin-top: 0vh;
+    
+}
+
+.container_p{
+    height: 15px;
+    font-family: 'raleway';
+    border-bottom: 1px solid black;
+    border-bottom-color: #c0e0dd7d;
+    border-width: 2px;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+
+.data-beskrivelse2{
+    grid-column: start / nr3;
+    margin-top: -35vh;
+    padding: 2vh;
+    font-family: 'raleway';
+    font-size: 13px;
+    color: white;
+}
+
+.data-status{
+    grid-column: start / nr3;
+    margin-top: -46vh;
+    text-align: center;
+    font-family: 'raleway';
+    color: white;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+.status-tekst{
+    height: 23px;
+    border-bottom: white solid 2px;
+    grid-column: start / nr3;
+    margin-top: -50vh;
+    text-align: center;
+    font-family: 'raleway';
+    color: white;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+.partnere{
+    display: grid;
+    grid-template-columns: [start] 4fr [nr1] 4fr [nr2] 4fr [nr3];
+    text-align: center;
+    height: 15vh;
+}
+
+.data-partner1, .data-partner2, .data-partner3, .data-partner4, .data-partner5, .data-partner6{
+    width: 70%;
+}
+
+}
+
+
+
+
+/*************SMALL**************/
+/*************SMALL**************/
+/*************SMALL**************/
+/*************SMALL**************/
+/*************SMALL**************/
+@media only screen and (max-width: 670px)  {
+.info_div{
+    color: white;
+    display: grid;
+    grid-template-columns: [start] 12fr [nr12];  
+    width: 100vw;
+}
+
+.data-farve_div{
+    position: absolute;
+    grid-column: start / nr12;
+    height: 500vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.data-farve{
+    position: absolute;
+    width: 100vw;
+    height: 500vh;
+    margin-top: -4vh;
+}
+
+.data-flag_div{
+    position: relative;
+    width: 100vw;
+    grid-column: start / nr12;
+    z-index: 100;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.data-flag{
+    width: 16%;
+}
+
+.data-bynavn{
+    position: relative;
+    height: 29px;
+    font-family: 'raleway';
+    font-weight: 300;
+    width: 100vw;
+    color: white;
+    margin-top: 15vh;
+    grid-column: start / nr12;
+    text-align: center;
+}
+
+.data-bybillede_div{
+    margin-top: 120vh;
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+        color: white;
+}
+    
+    .data-bybillede_div img{
+        width: 80vw;
+    }
+
+.data-bybillede{
+    width: 100%;
+}
+
+.data-mangde_af_containere{
+    margin-bottom: 3vh;
+    text-align: center;
+    font-family: 'raleway';
+    font-size: 28px;
+        margin-top: -1vh;
+    
+}
+
+.data-faerdigdato{
+        margin-bottom: 13vh;
+    text-align: center;
+    font-family: 'raleway';
+    font-size: 26px;
+    margin-top: -1vh;
+    
+}
+
+.container_p{
+    height: 20px;
+    font-family: 'raleway';
+    border-bottom: 1px solid black;
+    border-bottom-color: #c0e0dd7d;
+    border-width: 2px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+.data-beskrivelse2{
+    grid-column: start / nr12;
+    margin-top: -5vh;
+    padding: 2vh;
+    font-family: 'raleway';
+    font-size: 13px;
+    color: white;
+}
+
+.data-status{
+    width: 100vw;
+    position: relative;
+    grid-column: start / nr12;
+    margin-top: -18vh;
+    text-align: center;
+    font-family: 'raleway';
+    color: white;
+    margin-left: 0vh;
+    margin-right: 0vh;
+}
+
+.status-tekst{
+    position: relative;
+        color: blue;
+    z-index: 100;
+    height: 23px;
+    width: 100vw;
+    border-bottom: white solid 2px;
+    grid-column: start / nr12;
+        margin-top: -22vh;
+    text-align:center;
+    font-family: 'raleway';
+    color: white;
+    margin-left: 0vh;
+    margin-right: 0vh;
+}
+
+.partnere{
+    display: grid;
+    grid-template-columns: [start] 4fr [nr1] 4fr [nr2] 4fr [nr3];
+    text-align: center;
+    height: 15vh;
+}
+
+.data-partner1, .data-partner2, .data-partner3, .data-partner4, .data-partner5, .data-partner6{
+    width: 30%;
+}
+    
+    footer{
+        padding-top: 300vh;
+        width: 100vw;
+    }
+    
+    .single-ul{
+    margin-top: 10vh;
+    list-style: none;
+    grid-column: start / nr12;
+}
+    
+    .sing{
+    margin-top: -2vh;
+    display: block;
+}
+    
+    .container_logo{
+        margin-top: -2vh;
+    }
+    
+    .container_vaek{
+        display: none;
+    }
+    
+    .status-tekst{
+        
+    }
+    
+}
+/*************SMALL**************/

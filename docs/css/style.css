@@ -205,7 +205,7 @@ h2.TreD_h2 {
 
 .TreD_h2_hej{
         font-size: 25px;
-    margin-top: -5vh;
+    margin-top: 5vh;
     margin-right: 10vh;
     margin-left: 20vh;
     margin-bottom: 20vh;
@@ -522,41 +522,24 @@ img.niras_knap {
 /*******************student start**********************/
 
 .grid-container-students {
-    display: grid;
-    grid-template-columns: [start] 6fr [midt] 6fr [slut];
+    position: relative;
+    display: block;
+        text-align: center;
     /*    grid-gap: 10px;*/
 }
 
-.grid-item1 {
-    grid-column: start / midt;
-    /*    border: 1px solid black;*/
-    /*    background-color: #88d1ee;*/
-    height: 80vh;
-    width: 80vh;
-    background-size: cover;
-    object-fit: cover;
-    width: 100%;
-    margin-top: 10vh;
-}
 
-.grid-item2 {
-    grid-column: midt / slut;
-    /*    border: 1px solid black;*/
-    height: 80vh;
-    width: 80vh;
-    font-family: 'raleway';
-    margin-top: -15vh;
-}
 
 img.student {
     width: 60%;
-    align-content: center;
+    margin-top: 20vh;
     padding: 15px;
-    margin-left: 27vh;
+    grid-column: start / slut;
 }
 
 p.studenttext {
-    margin-top: 22vh;
+    margin-top: 0vh;
+    position: absolute;
     font-size: 15px;
     font-family: 'raleway';
     color: black;
@@ -579,16 +562,17 @@ h3.studentheadline {
 }
 
 h4.studentheadline {
-    margin-left: 29vh;
     font-size: 10px;
     font-family: 'lato';
     position: absolute;
-    width: 30%;
+    width: 100%;
     text-align: center;
+    margin-top: 9vh;
     font-family: Raleway;
     color: #666666;
     border-bottom: 0.3px solid #666666;
-    line-height: 0.2em;
+    line-height: 0.0em;
+    grid-column: start / midt;
 }
 
 span {
@@ -597,14 +581,15 @@ span {
 }
 
 button.knap_student {
+    position: relative;
     width: 90px;
     height: 40px;
     font-family: 'helvetica neue', sans-serif;
     background-color: rgba(240, 65, 65, 0.71);
     color: white;
     border: none;
-    margin-left: 37%;
     font-size: 17px;
+    margin-bottom: 3vh;
 }
 
 button.knap_student:hover {
@@ -650,13 +635,18 @@ p.student_icons {
     text-align: center;
     padding: 0;
     margin-left: 8vh;
-    display: inline;
-    font-family: 'lato', light;
-    font-size: 6px;
+    font-family: 'raleway', light;
+    font-size: 15px;
+    margin-top: 0vh;
 }
 
 img.map_pin {
     width: 5%;
+}
+
+.ikoner{
+    grid-column: start / slut;
+    display: block;
 }
 
 
@@ -2371,12 +2361,21 @@ img.map_pin {
 
     
 p.studenttext {
-    margin-top: 22vh;
+    margin-top: -10vh;
     font-size: 12px;
     font-family: 'raleway';
     color: black;
     padding-right: 5vw;
 }
+    
+    .fuckdether{
+        width: 70vw;
+        max-width: 70v%;!important
+        text-align: center;
+        padding-right: 40vw;
+        margin-right: 10vw;
+        overflow: hidden;
+    }
     
 
 

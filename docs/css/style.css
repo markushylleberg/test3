@@ -1965,7 +1965,7 @@ margin-top: 3vh;
     
     animation-name: fadeOut;
     animation-timing-function: ease-in;
-    animation-duration: 2000ms;
+    animation-duration: 4000ms;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
 }
@@ -2011,7 +2011,7 @@ img.splash_forside {
     
     animation-name: fadeOut;
     animation-timing-function: ease-in;
-    animation-duration: 2000ms;
+    animation-duration: 4000ms;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
 }
@@ -2044,7 +2044,7 @@ button.knap_forside {
     border: none;
     animation-name: fadeIn;
     animation-timing-function: ease-in;
-    animation-duration: 3000ms;
+    animation-duration: 4000ms;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
 }

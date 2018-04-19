@@ -4,6 +4,7 @@ body {
    padding:0;
     width: 100vw;
     overflow-x: hidden;
+    background-color: whitesmoke;
 }
 container {
    min-height:100%;
@@ -573,7 +574,7 @@ h4.studentheadline {
 }
 
 span {
-    background: white;
+    background: whitesmoke;
     padding: 0 10px;
 }
 
@@ -672,7 +673,7 @@ ul {
 }
 
 .korteffekt {
-    filter: drop-shadow(0 0 13px #293234);
+    filter: drop-shadow(0 0 1px #262626);
     z-index: 0;
 }
 

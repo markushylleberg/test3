@@ -18,11 +18,11 @@ button:focus {outline:0;}
 /***************************HEADER start****************/
 
 a {
-    color: black;
+    color: #efefef;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 12px;
     padding: 10px;
     margin-top: -1vh;
 }
@@ -36,8 +36,8 @@ a:hover {
 header {
     
     width: 101%;
-    /*    background-color: #c0e0df7d;*/
-    background: #d1e5d8;
+    background-color: #0e2d3c;
+    background: #0e2d3c
     padding-top: 0vh;
     margin-top: 0vh;
     margin-left: -1vw;
@@ -58,7 +58,7 @@ header nav {
 }
 
 a.nav.student {
-    color: red;
+    color: #cb2d2d;
 }
 
 a.nav.contact {
@@ -84,7 +84,7 @@ a.nav.contact {
     left: 51%;
     right: 51%;
     bottom: 0;
-    background: black;
+    background: #f8f8f8;
     height: 2px;
     -webkit-transition-property: left, right;
     transition-property: left, right;
@@ -1789,7 +1789,7 @@ nav {
     max-height: 0px;
     overflow: hidden;
     transition: 0.6s;
-    background: #d1e5d8;
+    background: #0e2d3c;
     color: #fff;
 }
 
@@ -1952,7 +1952,7 @@ margin-top: 3vh;
 }
     
     a.nav.contact {
-    border-right: 1px solid black;
+    border-right: 1px solid #f2f2f2;
 }
     
     header nav {
@@ -2074,7 +2074,7 @@ img.splash_forside {
     position: absolute;
     width: 100%;
     text-align: center;
-    margin-top: 10vh;
+    margin-top: 20vh;
 }
 
 .splash_logo2 {
@@ -2082,7 +2082,7 @@ img.splash_forside {
     pointer-events: none;
     width: 100%;
     text-align: center;
-    margin-top: 10vh;
+    margin-top: 20vh;
     z-index: 100;
     
     animation-name: fadeOut;
@@ -2104,16 +2104,16 @@ img.splash_forside {
     width: 100vw;
     position: absolute;
     text-align: center;
-    margin-top: -30vh;
+    margin-top: 0vh;
 }
 
 button.knap_forside {
-    width: 20vw;
-    height: 14vh;
+    width: 18vw;
+    height: 10vh;
     font-family: 'raleway' sans-serif;
     background-color: rgba(255, 255, 255, 0);
     color: white;!important
-    font-size: 17px;
+    font-size: 10px;
     z-index: 11;
     font-weight: 100;
     margin-top: -66vh;
@@ -2123,6 +2123,11 @@ button.knap_forside {
     animation-duration: 4000ms;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
+        border: 2px solid white;
+}
+
+.forside_h2{
+    font-size: 14px;
 }
 
 @keyframes fadeIn{

@@ -1306,7 +1306,8 @@ p img{
 
 .vision_img{
     margin-top: 14vh;
-    width: 20%;
+    width: 50%;
+    margin-bottom: -15vh;
 }
 
 .vision_p, .visionp2{
@@ -1324,6 +1325,7 @@ p img{
 
 
 #awards_container{
+    height: 80vh;
         grid-column: midt / slut;
     opacity: 1;
     margin-top: 0vh;
@@ -1331,8 +1333,15 @@ p img{
     width: 80vw;
     margin-left: 20vw;
     text-align: center;
+    align-content: center;
+    align-items: baseline;
     display: grid;
     grid-template-columns: [start] 4fr [midt] 4fr [midt2] 4fr [slut];
+    margin-bottom: 5vh;
+}
+
+#awards_container img{
+    width: 50%;
 }
 
 .award1{
@@ -1345,7 +1354,7 @@ p img{
 #idea_container{
     grid-column: midt / slut;
     opacity: 1;
-    margin-top: 10vh;
+    margin-top: 17vh;
     opacity: 1;
     width: 80vw;
     margin-left: 20vw;
@@ -1369,6 +1378,8 @@ p img{
     text-align: center;
     padding: 2vw;
     margin: 10vh;
+    font-family: 'raleway';
+    font-size: 15px;
 }
 
 #press_container{
@@ -1387,11 +1398,15 @@ p img{
 .press_p{
     grid-column: start / midt;
     padding: 5vw;
+    font-family: 'raleway';
+    font-size: 15px;
 }
 
 .press_p2{
     grid-column: midt / slut;
     padding: 5vw;
+        font-family: 'raleway';
+    font-size: 15px;
 }
 
 
@@ -1425,6 +1440,11 @@ p img{
 
 .awards{
     border-bottom: 1.5px solid rgb(52, 80, 196);
+}
+
+.award1_p{
+    font-family: 'raleway';
+    font-size: 14px;
 }
 
 .idea{
@@ -2650,6 +2670,25 @@ p.studenttext {
         width: 84%;
     }
     
+    .vision_img{
+    margin-top: 14vh;
+    width: 80%;
+    margin-bottom: -5vh;
+}
+    
+    #awards_container img{
+    width: 90%;
+        margin-right: 2vh;
+}
+    
+    #awards_container p{
+        margin-right: 2vh;
+    }
+    
+    .billede-div img{
+        width: 90%;
+        margin-right: 2vh;
+    }
     
     
     

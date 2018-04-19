@@ -5,8 +5,8 @@ samarbejdspartnere: velux
 landeflag: usa.png
 farve: farve2.png
 logo: urwhite.png
-beskrivelse1: New York City is the heart of United States when it comes to studying, however it is also the most expensive city in the states. Bjarke Ingels
-beskrivelse2: København jajajajajajajajajajjajaajjaj
+beskrivelse1: New York City is the heart of United States when it comes to studying, however it is also the most expensive city in the states, which becomes an issue for students.
+beskrivelse2: New York City is the heart of United States when it comes to studying, however it is also the most expensive city in the states, which becomes an issue for students. New York City is therefore supporting their students by building this set of Urban Riggers. Owned and rented out by the University of New York.
 container: 180
 dato: SUMMER 2023
 status: AWAITING FINAL BUILDING PERMISSION FROM NYC

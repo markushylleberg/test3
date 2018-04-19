@@ -6,7 +6,7 @@ landeflag: frenchdipshit.png
 farve: farve4.png
 logo: urwhite.png
 beskrivelse1: Paris is in need of student housing, as well as most big citys in the world. The city of Paris contacted us hoping we could setup 12 Rigs (= 120 containers for living). The project is going to be build in the spring of 2020.
-beskrivelse2: København jajajajajajajajajajjajaajjaj
+beskrivelse2: Paris is in need of student housing, as well as most big citys in the world. The city of Paris contacted us hoping we could setup 12 Rigs (= 120 containers for living). The project is going to be build in the spring of 2020. Having a lot of international student coming from all around the world, the City of Paris has decided to build an Urban Rigger.
 container: 12
 dato: SPRING/SUMMER 2020
 status: AWAITING FINAL APPROVEL FROM PARIS CITY

@@ -1987,7 +1987,7 @@ margin-top: 3vh;
 .video-background iframe {
     position: absolute;
     top: 0;
-    left: -20%;
+    left: -10%;
     object-fit: fill;
     
 }

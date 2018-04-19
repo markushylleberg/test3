@@ -1277,6 +1277,22 @@ p img{
 }
 
 
+.person1_p{
+    font-family: 'raleway';
+    font-size: 10px;
+}
+
+.person1_navn{
+        font-family: 'raleway';
+        font-weight: 200;
+        text-decoration: overline;
+}
+
+.person1_h2{
+        font-family: 'raleway';
+    font-weight: 400;
+}
+
 
 #vision_container{
         grid-column: midt / slut;
@@ -2615,6 +2631,24 @@ p.studenttext {
     ul#studenthousing2 {
     display: none;
 }
+    
+    #theteam_container{
+    margin-top: 0vh;
+    opacity: 1;
+    width: 80vw;
+    margin-left: 20vw;
+    display: grid;
+    grid-template-columns: [start] 6fr [midt] 6fr [slut];
+    grid-template-rows: [start] 2fr [midt] 2fr [midt2] 2fr [midt3] 2fr [midt4] 2fr [slut];
+}
+    
+    #theteam_container img{
+        width: 150px;
+    }
+    
+    .person1{
+        width: 84%;
+    }
     
     
     

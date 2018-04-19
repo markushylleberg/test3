@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Aboutus on Urban Rigger</title>
+    <title>Urban Rigger</title>
     <link>https://markushylleberg.github.io/test3/aboutus/</link>
-    <description>Recent content in Aboutus on Urban Rigger</description>
+    <description>Recent content on Urban Rigger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Apr 2018 13:13:54 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 16 Apr 2018 19:02:00 +0200</lastBuildDate>
     
 	<atom:link href="https://markushylleberg.github.io/test3/aboutus/index.xml" rel="self" type="application/rss+xml" />
     
@@ -26,15 +26,6 @@
       <pubDate>Mon, 16 Apr 2018 19:02:00 +0200</pubDate>
       
       <guid>https://markushylleberg.github.io/test3/aboutus/ansat10/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ansat1</title>
-      <link>https://markushylleberg.github.io/test3/aboutus/ansat2/</link>
-      <pubDate>Mon, 16 Apr 2018 19:02:00 +0200</pubDate>
-      
-      <guid>https://markushylleberg.github.io/test3/aboutus/ansat2/</guid>
       <description></description>
     </item>
     
@@ -98,6 +89,15 @@
       <pubDate>Mon, 16 Apr 2018 19:02:00 +0200</pubDate>
       
       <guid>https://markushylleberg.github.io/test3/aboutus/ansat9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ansat2</title>
+      <link>https://markushylleberg.github.io/test3/aboutus/ansat2/</link>
+      <pubDate>Mon, 16 Apr 2018 19:02:00 +0200</pubDate>
+      
+      <guid>https://markushylleberg.github.io/test3/aboutus/ansat2/</guid>
       <description></description>
     </item>
     

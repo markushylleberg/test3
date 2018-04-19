@@ -7,6 +7,7 @@ body{
     display: grid;
     grid-template-columns: [start] 1fr [nr1] 1fr [nr2] 1fr [nr3] 1fr [nr4] 1fr [nr5] 1fr [nr6] 1fr [nr7] 1fr [nr8] 1fr [nr9] 1fr [nr10] 1fr [nr11] 1fr [nr12];  
     width: 100vw;
+    height: 100%;
 }
 
 .data-farve_div{
@@ -54,8 +55,10 @@ body{
 }
 
 .data-bybillede{
-    width: 47%;
+    width: 27%;
 }
+
+
 
 .data-mangde_af_containere{
     margin-bottom: 13vh;
@@ -537,8 +540,19 @@ a.nav.contact {
     display: block;
 }
 
+.data-bybillede_div{
+    height: 70vh;
+    overflow-y: scroll;
+}
 
 
+    .data-bybillede_div p{
+        width: 100%;
+    }
+
+.data-bybillede_div img{
+    width: 30%;
+}
 
 
 
@@ -578,6 +592,14 @@ a.nav.contact {
     height: 100%;
     z-index: -1;
 }
+    
+.data-content{
+        max-width: 70%;
+    }
+    
+    .data-bybillede_div p img{
+        width: 100%;
+    }
 
 .data-farve{
     position: absolute;
@@ -614,10 +636,16 @@ a.nav.contact {
     position: absolute;
     width: 100%;
     text-align: center;
+    margin-left: 40%;
+    height: auto;
 }
+    
+    .data-bybillede_div p{
+        width: 30%;
+    }
 
 .data-bybillede{
-    width: 47%;
+    width: 30%;
 }
 
 .data-mangde_af_containere{
@@ -756,10 +784,15 @@ a.nav.contact {
     width: 100vw;
     text-align: center;
         color: white;
+                margin-left: 0%;
 }
     
     .data-bybillede_div img{
-        width: 80vw;
+        width: 100%;
+    }
+    
+        .data-bybillede_div p{
+        width: 100%;
     }
 
 .data-bybillede{
@@ -792,6 +825,7 @@ a.nav.contact {
     border-width: 2px;
     text-align: center;
     font-size: 14px;
+    margin-top: -2vh;
 }
 
 
@@ -838,6 +872,7 @@ a.nav.contact {
     grid-template-columns: [start] 4fr [nr1] 4fr [nr2] 4fr [nr3];
     text-align: center;
     height: 15vh;
+    margin-top: 2vh;
 }
 
 .data-partner1, .data-partner2, .data-partner3, .data-partner4, .data-partner5, .data-partner6{

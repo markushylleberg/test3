@@ -18,6 +18,15 @@ partner5: /imgs/danfoss.png
 partner6: /imgs/grundfoss.png
 ---
 
-<img src="../../imgs/danfoss.png">
+'**Project Copenhagen**'
 
-hej med dig
+We figured Copenhagen would be the best place to place our first Urban Rigger.
+
+<img src="../../imgs/refshale.jpg">
+
+After having succesfully launched our first Urban Rigger 1.0,
+
+we've gotten green light to place another five Urban Riggers in the spring of 2019.
+
+
+<img src="../../imgs/forside.jpg">

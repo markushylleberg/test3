@@ -11,11 +11,31 @@ container: 12
 dato: SPRING/SUMMER 2020
 status: AWAITING FINAL APPROVEL FROM PARIS CITY
 partner1: /imgs/miele.png
-partner2: /imgs/Niras.png
+partner2: /imgs/grundfoss.png
 partner3: /imgs/qcells.png
-partner4: /imgs/BIG.png
+partner4: /imgs/parisskole.png
 partner5: /imgs/danfoss.png
-partner6: /imgs/grundfoss.png
+partner6: /imgs/parisby.png
 ---
 
-case 2 content
+'**Project Paris**'
+
+We're currently working on a small project in Paris.
+
+This is the University of Paris wanting a set of containers
+
+for their internation students.
+
+This will hopefully launch in the spring/summer of 2020.
+
+<img src="../../imgs/parishavn2.jpg">
+
+Speaking of France, the City of Nice is currently
+
+doing enviromental research of placing a big amount
+
+of Urban Rigger in their harbour.
+
+
+
+<img src="../../imgs/parishavn.jpg">

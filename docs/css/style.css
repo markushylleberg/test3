@@ -3,7 +3,7 @@ body {
    margin:0;
    padding:0;
     width: 100vw;
-    height: 100%;
+    overflow-x: hidden;
 }
 container {
    min-height:100%;
@@ -912,15 +912,27 @@ ul {
 }
 
 .data-bybillede {
-    position: relative;
-    width: 100%;
+    position: absolute;
+    width: 30%;
     filter: grayscale(100%) opacity(0%) brightness(40%);
     z-index: 10;
 }
 
+.data-bybillede p{
+    padding-left: 10vw;
+}
+
 .data-bybillede_div {
-    grid-column: start / nr6;
+    grid-column: start / nr12;
     margin-top: -12vh;
+}
+
+.data-bybillede_div p{
+    padding: 20vh;
+}
+
+p img{
+    max-width: 200px;
 }
 
 .data-beskrivelse1 {
@@ -1235,7 +1247,8 @@ ul {
 }
 
 .fuckingfooter{
-    width: cover;
+    width: 100vw;
+    overflow: hidden;
 }
 
 #theteam_container{
@@ -1924,6 +1937,7 @@ margin-top: 3vh;
 
 
 .video-background{
+ 
     float: none;
     clear: both;
     width: 100vw;
@@ -1936,6 +1950,7 @@ margin-top: 3vh;
     top: 0;
     left: 0;
     z-index: -1;
+    
 }
 
 .video-background iframe {
@@ -1943,13 +1958,43 @@ margin-top: 3vh;
     top: 0;
     left: -20%;
     object-fit: fill;
+    
 }
 
+.iframe1{
+/*
+    left: -10vw;
+    position: absolute;
+    top: 0;
+*/
+/*    object-fit: cover;*/
+/*
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: -0vw;
+    
+*/
+     padding: 0;
+    border: 0;
+    outline: 0;
+
+}
+
+.fuckdetherlort{
+    
+}
+
+
 #loader1{
-    width: 10%;
-    height: 10%;
-   top: 45%;
-    left: 45%;
+    width: 17%;
+    height: 20%;
+   top: 40%;
+    left: 41.5%;
     position: absolute;
 }
 
@@ -2085,11 +2130,38 @@ button.knap_forside {
 /******************IPAD QUE**************/
 @media only screen and (max-width: 1000px)  {
 
-.video-background iframe {
+.video-background{
+ 
+    float: none;
+    clear: both;
+    width: 100%;
+    height: 100
+    object-fit: cover;
+    background-position: 200% 400%;
+    margin: 0;
+   
+    margin-top: 10vh;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     position: absolute;
     top: 0;
-    left: -70%;
-    object-fit: fill;
+    z-index: -1;
+    text-align: left;
+    left: 0;
+
+    
+}
+
+.video-background iframe1 {
+    width: 100%;
+    height: 100%
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    
 }
     
     a{
@@ -2479,11 +2551,15 @@ p.studenttext {
 }
 
     
- .video-background iframe {
+.video-background iframe1 {
+    margin-top: -3vh;
+    width: 100%;
+    height: 100%
     position: absolute;
-    top: 0;
-    left: -180%;
     object-fit: cover;
+    top: 0;
+    left: 0;
+    
 }
 
     button.knap_forside {

@@ -11,11 +11,30 @@ container: 180
 dato: SUMMER 2023
 status: AWAITING FINAL BUILDING PERMISSION FROM NYC
 partner1: /imgs/miele.png
-partner2: /imgs/Niras.png
+partner2: /imgs/nyc.png
 partner3: /imgs/qcells.png
-partner4: /imgs/BIG.png
+partner4: /imgs/nyceyy.png
 partner5: /imgs/danfoss.png
 partner6: /imgs/grundfoss.png
 ---
 
-hahaha ha
+'**Project New York City**'
+
+Our first project so far outside Europe.
+
+New York City is the heart of students in the states,
+
+and therefore they are also in need of studenthousing.
+
+
+<img src="../../imgs/ny1.jpg">
+
+We're hoping to begin this as soon as
+
+the state approves.
+
+These Urban Riggers will be placed
+
+on the harbor side of New York City.
+
+<img src="../../imgs/ny2.jpg">

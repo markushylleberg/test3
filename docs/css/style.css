@@ -39,6 +39,11 @@ a:hover {
     /*    text-shadow: 1px 1px 1px #00f5ff;*/
 }
 
+p {
+    font-family: 'raleway';
+}
+
+
 header {
     
     width: 101%;
@@ -1076,6 +1081,8 @@ p img{
     padding-right: 10vw;
     font-family: 'raleway';
     text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
 }
 
 .container_view{
@@ -1413,8 +1420,29 @@ p img{
 
 #about1, #about2, #about3, #about4, #about5{
     border: none;
-    background-color: rgba(0, 0, 0, 0);
 }
+
+button.about1{
+    background-color: whitesmoke;
+}
+
+button.about2{
+    background-color: whitesmoke;
+}
+
+button.about3{
+    background-color: whitesmoke;
+}
+
+button.about4{
+    background-color: whitesmoke;
+}
+
+button.about5{
+    background-color: whitesmoke;
+}
+
+
 
 .aboutus_h2{
     grid-column: midt / slut;
@@ -1432,15 +1460,15 @@ p img{
 }
 
 .theteam{
-    border-bottom: 1.5px solid #a22626;
+    border-bottom: 1.5px solid #8ee8dc;
 }
 
 .vissionandvalues{
-    border-bottom: 1.5px solid rgb(255, 243, 103);
+    border-bottom: 1.5px solid #8ee8dc;
 }
 
 .awards{
-    border-bottom: 1.5px solid rgb(52, 80, 196);
+    border-bottom: 1.5px solid#8ee8dc;
 }
 
 .award1_p{
@@ -1449,11 +1477,11 @@ p img{
 }
 
 .idea{
-    border-bottom: 1.5px solid rgb(159, 206, 202);
+    border-bottom: 1.5px solid #8ee8dc;
 }
 
 .press{
-    border-bottom: 1.5px solid rgb(242, 234, 190);
+    border-bottom: 1.5px solid #8ee8dc;
 }
 
 .theteam_p{
@@ -1547,6 +1575,14 @@ img.about_icon_5 {
     filter:grayscale(30%);
 }
 
+p.studenttext {
+    margin-top: -10vh;
+    font-size: 12px;
+    font-family: 'raleway';
+    color: black;
+    padding-right: 5vw;
+}
+
 .grid-container-about {
     display: block;
     position: fixed;
@@ -1562,63 +1598,46 @@ img.about_icon_5 {
 
 .grid-item-about1 {
     padding-top: 1vh;
-    background-color: #DB5047;
+    background-color: #8ee8dc;
     height: 5vh;
     width: 10vw;
+    transition: 0.3s;
 }
 
 .grid-item-about2 {
         padding-top: 1vh;
-    background-color: #FDE63A;
+    background-color: #c4e3e0;
     height: 5vh;
     width:10vw;
+    transition: 0.3s;
 }
 
 .grid-item-about3 {
         padding-top: 1vh;
-    background-color: #4D7ABF;
+    background-color: #8ee8dc;
     height: 5vh;
     width: 10vw;
+    transition: 0.3s;
 }
 
 .grid-item-about4 {
         padding-top: 1vh;
     grid-column: midt3 / midt4;
-    background-color: #C8E5F5;
+    background-color: #c4e3e0;
     height: 5vh;
     width: 10vw;
     z-index: 1000;
+    transition: 0.3s;
 }
 
 .grid-item-about5 {
         padding-top: 1vh;
     grid-column: midt4 / slut;
-    background-color: #F6E8C2;
+    background-color: #8ee8dc;
     height: 5vh;
     width: 10vw;
     position: relative;
-}
-
-
-
-.grid-item-about1:hover {
-    background-color: rgba(250, 18, 3, 0.7);
-}
-
-.grid-item-about2:hover {
-    background-color: rgba(255, 235, 0, 0.88);
-}
-
-.grid-item-about3:hover {
-    background-color: rgba(29, 118, 253, 0.88);
-}
-
-.grid-item-about4:hover {
-    background-color: rgb(177, 231, 247);
-}
-
-.grid-item-about5:hover {
-    background-color: rgba(244, 219, 153, 0.83);
+    transition: 0.3s;
 }
 
 
@@ -2493,6 +2512,7 @@ p.studenttext {
         padding-right: 40vw;
         margin-right: 10vw;
         overflow: hidden;
+        
     }
     
 

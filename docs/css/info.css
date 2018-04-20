@@ -1,13 +1,14 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: whitesmoke;
 }
 
 .info_div{
     display: grid;
     grid-template-columns: [start] 1fr [nr1] 1fr [nr2] 1fr [nr3] 1fr [nr4] 1fr [nr5] 1fr [nr6] 1fr [nr7] 1fr [nr8] 1fr [nr9] 1fr [nr10] 1fr [nr11] 1fr [nr12];  
     width: 100vw;
-    height: 100%;
+    height: 107%;
 }
 
 .data-farve_div{
@@ -20,8 +21,8 @@ body{
 .data-farve{
     position: absolute;
     width: 25vw;
-    height: 93vh;
-    margin-top: -1vh;
+    height: 99vh;
+    margin-top: -4vh;
 }
 
 .data-flag_div{
@@ -155,12 +156,16 @@ footer {
 /***************************HEADER start****************/
 
 a {
-    color: black;
+    color: #f5f5f5;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     padding: 10px;
     margin-top: -2vh;
+}
+
+p {
+    font-family: 'raleway';
 }
 
 a:hover {
@@ -170,17 +175,18 @@ a:hover {
 }
 
 header {
+    
     width: 101%;
-    /*    background-color: #c0e0df7d;*/
-    background-color: #c1e0f7;
+    background-color: #0e2d3c;
+    background: #0e2d3c
     padding-top: 0vh;
     margin-top: 0vh;
     margin-left: -1vw;
 }
 
 header nav {
-    text-align: right;
-    top: 10%;
+    text-align: center;
+    top: 0;
     padding: 10px;
     margin-left: 6%;
 }
@@ -192,12 +198,33 @@ header nav {
     left: 0;
 }
 
+.urban_logo_sort {
+    position: absolute;
+    padding-bottom: 1vh;
+    width: 6%;
+    left: 0;
+}
+
 a.nav.student {
-    color: red;
+    color: #cb2d2d;
 }
 
 a.nav.contact {
-    border-right: 1px solid black;
+    border-right: 0px;
+}
+
+nav {
+    max-height: 0px;
+    overflow: hidden;
+    transition: 0.6s;
+    background: #0e2d3c;
+    color: #fff;
+/*    box-shadow: 8px 5px 4px rgba(33, 247, 230, 0.74);*/
+/*    filter:drop-shadow(10px 1px 1px black);*/
+}
+
+nav.show {
+    max-height: 500px;
 }
 
 /* Underline From Center */
@@ -268,22 +295,12 @@ li {
 .bar3 {
     width: 35px;
     height: 5px;
-    background-color: #333;
+    background-color: #ebebeb;
     margin: 6px 0;
     transition: 0.4s;
 }
 
-nav {
-    max-height: 0px;
-    overflow: hidden;
-    transition: 0.6s;
-    background: #d1e5d8;
-    color: #fff;
-}
 
-nav.show {
-    max-height: 500px;
-}
 
 /* Rotate first bar */
 
@@ -343,15 +360,22 @@ nav.show {
   padding: 0;
 }
 .footer .col ul li {
-  color: #999999;
-  font-size: 14px;
-  font-family: inherit;
-  font-weight: bold;
+  color: #c1c1c1;
+  font-size: 12px;
+  font-family: 'raleway';
+  font-weight: 200;
   padding: 5px 40px 5px 0px;
   cursor: pointer;
   transition: .2s;
   -webkit-transition: .2s;
   -moz-transition: .2s;
+}
+
+.footer a{
+    visibility: visible;!important
+    font-family: inherit;
+    margin-left: -0.6vw;
+    z-index: 100;
 }
 .social ul li {
   display: inline-block;
@@ -445,11 +469,11 @@ margin-top: 3vh;
 
 
 a {
-    color: black;
+    color: #efefef;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 12px;
     padding: 10px;
     margin-top: -1vh;
 }
@@ -460,37 +484,7 @@ a:hover {
     /*    text-shadow: 1px 1px 1px #00f5ff;*/
 }
 
-header {
-    
-    width: 101%;
-    /*    background-color: #c0e0df7d;*/
-    background: #d1e5d8;
-    padding-top: 0vh;
-    margin-top: 0vh;
-    margin-left: -1vw;
-}
 
-header nav {
-    text-align: center;
-    top: 0;
-    padding: 10px;
-    margin-left: 6%;
-}
-
-.urban_logo_sort {
-    position: absolute;
-    padding-bottom: 1vh;
-    width: 6%;
-    left: 0;
-}
-
-a.nav.student {
-    color: red;
-}
-
-a.nav.contact {
-    border-right: 0px;
-}
 
 /* Underline From Center */
 
@@ -589,23 +583,27 @@ a.nav.contact {
 .data-farve_div{
     position: absolute;
     grid-column: start / nr12;
-    height: 100%;
+    height: 10%;
     z-index: -1;
 }
     
 .data-content{
         max-width: 70%;
+        font-family: 'raleway';
+        font-size: 12px;
     }
     
     .data-bybillede_div p img{
         width: 100%;
+                font-family: 'raleway';
+        font-size: 12px;
     }
 
 .data-farve{
     position: absolute;
     width: 25vw;
-    height: 120%;
-    margin-top: -2vh;
+    height: 140%;
+    margin-top: -4vh;
 }
 
 .data-flag_div{
@@ -638,14 +636,19 @@ a.nav.contact {
     text-align: center;
     margin-left: 40%;
     height: auto;
+    font-family: 'raleway';
 }
     
     .data-bybillede_div p{
         width: 30%;
+                font-family: 'raleway';
+        font-size: 12px;
     }
 
 .data-bybillede{
     width: 30%;
+            font-family: 'raleway';
+        font-size: 12px;
 }
 
 .data-mangde_af_containere{

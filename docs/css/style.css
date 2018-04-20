@@ -5,6 +5,11 @@ body {
     width: 100vw;
     overflow-x: hidden;
     background-color: whitesmoke;
+    z-index: -2;
+}
+
+.homepage{
+    background-color: transparent;
 }
 container {
    min-height:100%;
@@ -954,7 +959,7 @@ p img{
 
 .linkdiv {
     position: absolute;
-    margin-top: 30vh;
+    margin-top: 27vh;
     text-align: center;
     width: 100%;
 }
@@ -968,7 +973,7 @@ p img{
     background-color: rgba(172, 172, 172, 0);
     border: 3px white solid;
     color: white;
-    margin-top: -5vh;8
+    margin-top: -5vh;
 }
 
 .button1:hover {
